@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+.zw-containor{
+		position: absolute;top: 15%;left: 30%;
+		z-index:3;
+		width:40%;		
+		height: 50%;
+		margin-top:2%;
+		background:#fff;
+		opacity:0.85;
+		box-shadow:5px 5px 5px rgba(0,0,0,.6);
+}
+.zw-title{
+	padding-left:5%;
+}
+form{
+	width:90%;
+	height:50%;
+}
+.login-form{
+	position:relative;	left:10%;
+	width:60%;
+	height:100%;
+}
+.login-info{
+	padding:5%;
+}
+.login-input{
+	height:30px;
+	width:200px;
+}
+.login-submit{
+	margin-left:45%;
+}
+
+h1>a{
+	
+	height:100%;
+	width:100%;
+	display:block;
+	float:left;
+}
+
+/*hover */
+
+
+h1>a:hover{
+	transition:color .5s ease-in .1s, background-color .5s ease-in .1s;
+	background: #5f6f81;
+	color: white;
+}

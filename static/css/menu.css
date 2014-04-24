@@ -1,0 +1,145 @@
+﻿*,*:after,*::before{
+	font-family:"微软雅黑";
+	color:#34495e;
+	text-decoration:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+
+}
+#bg{
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index:1;
+	background:url(http://localhost/whv_t/static/image/bg3.jpg);
+	background-size:cover;
+}
+
+.zw-nav>a,.zw-trigger>a{
+	line-height:70px;
+	font-size:large;
+	color:#34495e;
+	position:fixed;top:0;
+	z-index:6;
+	background:#fff;
+	opacity:0.85;
+	height:70px;
+	display:block;
+	list-style-type:none;
+}
+
+.zw-nav>a{
+	width:11%;
+	text-align:center;
+	border:1px solid #c6d0da;
+	height:70px;
+}
+
+.zw-icon-menu{
+	left:11%;
+	width:100%;
+	height:35px;
+	box-shadow:5px 5px 5px rgba(0,0,0,.6);
+}
+
+@media screen and (max-width:1366px){
+	.zw-nav>a{
+	width:150px;
+}
+
+.zw-icon-menu{
+	left:150px;
+}
+
+}.zw-login>a{
+	position:fixed;top:0;
+	z-index:6;
+	height:70px;
+	display:block;
+	float:right;
+	line-height:70px;
+	font-size:large;
+}
+
+.user-name{
+	right:100px;
+}
+
+.user-login,.user-quit{
+	right:0;
+	padding-left:30px;
+	width:100px;
+}
+
+.zw-scroller>ul{
+	list-style:none;
+	display:none;
+}
+
+.zw-icon,.zw-submenu>a{
+	border-bottom:1px groove #c6d0da;
+	height:40px;
+	line-height:40px;
+	display:block;
+}
+
+.zw-icon{
+	font-size:smaller;
+	display:none;
+}
+
+footer{
+	position:fixed;	bottom:0%;
+	z-index:2;
+	width:11%;
+	display:block;
+}
+
+.zw-submenu:hover >li>a{
+	display:block;
+}
+
+.zw-login>a:hover{
+	transition:color .5s ease-in .1s,background-color .5s ease-in .1s;
+	background:#5f6f81;
+	color:white;
+}
+
+.zw-submenu>a:hover,.zw-icon:hover{
+	transition:color .5s ease-in .1s,background-color .5s ease-in .1s,border-radius .5s ease-in .1s;
+	border-radius:40px 0 40px 0;
+	padding-left:30px;
+	background:#5f6f81;
+	color:white;
+}
+
+.zw-nav:hover div{
+	margin:0;
+	padding:0;
+	transition:background .5s ease-in .1s;
+	position:fixed;
+	top:7%;
+	z-index:5;
+	background:#fff;
+	opacity:0.85;
+	width:11%;
+	display:block;
+	box-shadow:5px 5px 5px rgba(0,0,0,.6);
+	min-width:120px;
+}
+
+.zw-nav:hover ul{
+	display:block;
+}
+
+.zw-icon:target,.zw-submenu>a:target{
+	background:#5f6f81;
+	color:white;
+}
+

@@ -1,0 +1,26 @@
+.zw-containor{
+		position: absolute;top: 5%;left: 11%;
+		z-index:3;
+		width:40%;		
+		height: 90%;
+		margin-top:2%;
+		padding: 0;
+		opacity:0.85;
+}
+.zw-title,
+p{
+		margin: 0;
+		padding: 0;
+		background:#fff;
+		
+}
+
+p{
+		padding:1%;		
+}
+
+.in_p{
+		padding-left:15%;
+		width:85%;		
+		height: 85%;
+}
