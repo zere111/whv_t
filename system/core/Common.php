@@ -560,7 +560,5 @@ if ( ! function_exists('html_escape'))
 	}
 }
 
-
 /* End of file Common.php */
 /* Location: ./system/core/Common.php */
-

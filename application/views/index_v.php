@@ -1,6 +1,7 @@
 <?php
 ?>
-<link rel="stylesheet" type="text/css" href='<?php echo base_url("/static/css/index.css"); ?>' />
+<link rel="stylesheet" type="text/css" href='css/index.css' />
+
 <div class="zw-containor">
 			<h1 class="zw-title">什么是Working Holiday Visa</h1>
 				<p>
@@ -25,4 +26,5 @@
 				第四：新西兰法律禁止持有临时签证，包括WHV，的任何人从事任何“性”相关的工作。
 				第五：需要申请IRD税号，并且你的打工收入是要交税的。
 				</p>
+				
 		</div>

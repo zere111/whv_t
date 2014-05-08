@@ -1,9 +1,9 @@
 <!-- /detail -->
-<link rel="stylesheet" type="text/css" href='<?php echo base_url("/static/css/register.css"); ?>' />
+<link rel="stylesheet" type="text/css" href='css/register.css' />
 
 	<div class="zw-containor">
 		<h1 class="zw-title">User Register</h1>
-		<form action='<?php echo base_url("/index.php/register/adduser"); ?>' method="post">
+		<form action='index.php/register/adduser' method="post">
 			<ul  class="login-form" style="list-style:none">
 				<li class="login-info">UserName:&nbsp
 					<input  autofocus="ture" class="login-input" name="uname" type="text" />
@@ -28,4 +28,4 @@
 		</form>
 						
 	</div>
-<script src='<?php echo base_url("/static/js/register.js"); ?>'></script>
+<script src='js/register.js'></script>
